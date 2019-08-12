@@ -1,4 +1,4 @@
-import NavBook from "../components/NavBook";
+import NavBook from "../components/navBook";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../static/css/style.css";
 import ShoppingCarIcon from "../components/SearchBooksComponents/ShoppingCarIcon";
