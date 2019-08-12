@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Button */ "react-bootstrap/Button");
 /* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\AddInSearch.js";
+var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/AddInSearch.js";
 
 
 
@@ -195,7 +195,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
 /* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\NavBook.js";
+var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/NavBook.js";
 
 
 
@@ -225,7 +225,7 @@ const NavBook = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
-  href: "#",
+  href: "/",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
@@ -264,7 +264,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\SellBook.js";
+var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/SellBook.js";
 
 
 const shoppingCartbutton = {
@@ -1010,7 +1010,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
 /* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _components_SellBook__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/SellBook */ "./components/SellBook.js");
-var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\pages\\Profile.js";
+var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/pages/Profile.js";
 
 
 
@@ -1338,14 +1338,14 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 7:
+/***/ 6:
 /*!********************************!*\
   !*** multi ./pages/Profile.js ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\jenny\Desktop\projects\book_app_v3\pages\Profile.js */"./pages/Profile.js");
+module.exports = __webpack_require__(/*! /Users/martheouattara/Desktop/book_app_v3/pages/Profile.js */"./pages/Profile.js");
 
 
 /***/ }),

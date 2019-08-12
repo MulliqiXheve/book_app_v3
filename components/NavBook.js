@@ -12,7 +12,7 @@ const NavBook = () => (
 	<div>
 		     <Navbar bg="dark" variant="dark">
 				<Nav className="mr-auto">
-				<Nav.Link href="#">Home</Nav.Link>
+				<Nav.Link href="/">Home</Nav.Link>
 				<Nav.Link href="/SearchBooks">SearchBooks</Nav.Link>
 				<Nav.Link href="/Profile">Profile</Nav.Link>
 				
