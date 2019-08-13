@@ -9,7 +9,7 @@ import "../static/css/style.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import NavBook from "../components/NavBook";
-import AddInSearch from "../components/AddInSearch";
+import SellBookList from "../components/SellBooksList";
 import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 import SellBook from "../components/SellBook";
@@ -79,24 +79,24 @@ class Profile extends React.Component {
                   <tbody>
                     <tr>
                       <td>
-                        <AddInSearch />
+                        <SellBookList />
                       </td>
                       <td>
-                        <AddInSearch />
+                      <SellBookList />
                       </td>
                       <td>
-                        <AddInSearch />
+                      <SellBookList />
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <AddInSearch />
+                      <SellBookList />
                       </td>
                       <td>
-                        <AddInSearch />
+                      <SellBookList />
                       </td>
                       <td>
-                        <AddInSearch />
+                      <SellBookList />
                       </td>
                     </tr>
                     <tr>

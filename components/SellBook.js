@@ -1,5 +1,6 @@
-import Link from 'next/link';
-
+// import Link from 'next/link';
+import ModalAddBook from './ModalAddBook';
+import Button from 'react-bootstrap/Button';
 
 const shoppingCartbutton = {
     float: "right",
@@ -8,17 +9,22 @@ const shoppingCartbutton = {
   };
 
 function SellBook(){
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <div>
       
       
-      <Link href= "/ShoppingCart" >
+      <Button onClick={() => setModalShow(true)} >
         <img
           src= "./static/images/addBook.png  " 
           alt=  "image" 
           style={shoppingCartbutton}
         /> 
-      </Link>
+      </Button>
+      <ModalAddBook
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+           />
     </div>
   );
 }

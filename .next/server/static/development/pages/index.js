@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/HomePage.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\HomePage.js";
 
 
 
@@ -223,9 +223,42 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ "./components/NavBook.js":
+/***/ "./components/image.js":
+/*!*****************************!*\
+  !*** ./components/image.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\image.js";
+
+
+
+function Image() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "static\\images\\homeImg.jpg",
+    alt: "image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Image);
+
+/***/ }),
+
+/***/ "./components/navBook.js":
 /*!*******************************!*\
-  !*** ./components/NavBook.js ***!
+  !*** ./components/navBook.js ***!
   \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -244,7 +277,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
 /* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/NavBook.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\navBook.js";
 
 
 
@@ -297,39 +330,6 @@ const NavBook = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement
 }, "Profile"))));
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBook);
-
-/***/ }),
-
-/***/ "./components/image.js":
-/*!*****************************!*\
-  !*** ./components/image.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/image.js";
-
-
-
-function Image() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/image-placeholder.jpg",
-    alt: "image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  });
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Image);
 
 /***/ }),
 
@@ -1019,14 +1019,14 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_NavBook__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/NavBook */ "./components/NavBook.js");
+/* harmony import */ var _components_navBook__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/navBook */ "./components/navBook.js");
 /* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/image */ "./components/image.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_HomePage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/HomePage */ "./components/HomePage.js");
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/pages/index.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\pages\\index.js";
 
 
 
@@ -1040,7 +1040,7 @@ const Index = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("
     lineNumber: 9
   },
   __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBook__WEBPACK_IMPORTED_MODULE_1__["default"], {
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navBook__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
@@ -1076,7 +1076,7 @@ const Index = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/martheouattara/Desktop/book_app_v3/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\jenny\Desktop\projects\book_app_v3\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

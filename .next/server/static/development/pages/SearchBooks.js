@@ -93,12 +93,260 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-<<<<<<< HEAD
-=======
-/***/ "./components/AddBooks.js":
-/*!********************************!*\
-  !*** ./components/AddBooks.js ***!
-  \********************************/
+/***/ "./components/ModelAddBook.js":
+/*!************************************!*\
+  !*** ./components/ModelAddBook.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Form */ "react-bootstrap/Form");
+/* harmony import */ var react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Button */ "react-bootstrap/Button");
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Row */ "react-bootstrap/Row");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Col */ "react-bootstrap/Col");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Modal */ "react-bootstrap/Modal");
+/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_8__);
+
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\ModelAddBook.js";
+
+
+
+
+
+
+
+
+
+function ModalAddBook(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+    size: "lg",
+    "aria-labelledby": "contained-modal-title-vcenter",
+    centered: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7___default.a.Dialog, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7___default.a.Header, {
+    closeButton: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Add a Book")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7___default.a.Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Group, {
+    controlId: "formAddBook",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "Book Name"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Control, {
+    type: "search",
+    placeholder: "search",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Group, {
+    controlId: "formImage",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Image"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Control, {
+    type: "image",
+    placeholder: "Upload image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }), "Upload Image"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Group, {
+    controlId: "formImage",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "Price"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Control, {
+    type: "text",
+    placeholder: "$",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Group, {
+    controlId: "formDescription",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Label, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "Description"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_2___default.a.Control, {
+    type: "text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }))))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_7___default.a.Footer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    variant: "outline-dark",
+    type: "add",
+    onClick: props.onHide,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, "Close"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    variant: "primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, "Add"))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModalAddBook);
+
+/***/ }),
+
+/***/ "./components/ModelEditBook.js":
+/*!*************************************!*\
+  !*** ./components/ModelEditBook.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -116,81 +364,93 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Col */ "react-bootstrap/Col");
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/AddBooks.js";
+/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Modal */ "react-bootstrap/Modal");
+/* harmony import */ var react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\ModelEditBook.js";
 
 
 
 
 
 
- //import Button from 'react-bootstrap/Button';
 
-function addBook() {
-  const formStyle = {
-    margin: '20px',
-    border: '5px solid gray',
-    padding: '40px',
-    width: '100%'
-  };
-  const buttonstyle = {
-    width: '100%',
-    height: '20px',
-    padding: '25px' // const labelStyle={
-    //   width: '80p%',
-    //   height: '80px',
-    // }
 
-  };
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default.a, {
+
+function ModelEditBook() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6___default.a.Dialog, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6___default.a.Header, {
+    closeButton: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6___default.a.Title, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Edit a book")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6___default.a.Body, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    style: formStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Add a Book"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
     controlId: "formAddBook",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 25
     },
     __self: this
   }, "Book Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
@@ -198,38 +458,38 @@ function addBook() {
     placeholder: "search",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 27
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 29
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
     controlId: "formImage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 32
     },
     __self: this
   }, "Image"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
@@ -237,26 +497,26 @@ function addBook() {
     placeholder: "Upload image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 35
     },
     __self: this
   }), "Upload Image"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 38
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
     controlId: "formImage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 41
     },
     __self: this
   }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
@@ -264,49 +524,54 @@ function addBook() {
     placeholder: "$",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 42
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 44
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
     controlId: "formDescription",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 47
     },
     __self: this
   }, "Description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 48
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
     type: "text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 49
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 51
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    style: buttonstyle,
+  })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Modal__WEBPACK_IMPORTED_MODULE_6___default.a.Footer, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
     variant: "outline-dark",
     type: "add",
     __source: {
@@ -314,340 +579,17 @@ function addBook() {
       lineNumber: 59
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  }, "Close"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 62
     },
     __self: this
-  }, "Add")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    style: formStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, "Edit a book"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
-    controlId: "formAddBook",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Edit Book"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
-    type: "search",
-    placeholder: "search",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
-    controlId: "formImage",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "Image"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
-    type: "image",
-    placeholder: "Upload image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }), "Upload Image"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
-    controlId: "formImage",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
-    type: "text",
-    placeholder: "$",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Group, {
-    controlId: "formDescription",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Label, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, "Description"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Form__WEBPACK_IMPORTED_MODULE_1___default.a.Control, {
-    type: "text",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    style: buttonstyle,
-    variant: "outline-dark",
-    type: "add",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, "Edit"))))));
+  }, "Edit"))));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (addBook);
-
-/***/ }),
-
-/***/ "./components/AddInSearch.js":
-/*!***********************************!*\
-  !*** ./components/AddInSearch.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Card */ "react-bootstrap/Card");
-/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Button */ "react-bootstrap/Button");
-/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/AddInSearch.js";
-
-
-
-
-class AddInSearch extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      img: "javascriptBook",
-      bookName: "JavaScript and JQuary ",
-      price: "5$"
-    };
-  }
-
-  render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      style: {
-        width: '12rem'
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Img, {
-      src: '/static/images/' + this.state.img + '.png',
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Body, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Title, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29
-      },
-      __self: this
-    }, this.state.bookName, this.state.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      variant: "success",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 31
-      },
-      __self: this
-    }, "Add"))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (AddInSearch);
-
-/***/ }),
-
->>>>>>> 134fe55df97f5093f25a4f48a2259d4b30730567
-/***/ "./components/NavBook.js":
-/*!*******************************!*\
-  !*** ./components/NavBook.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Navbar */ "react-bootstrap/Navbar");
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/NavBook.js";
-
-
-
-
-
- // import Link from 'react-bootstrap/Link';
-
-const NavBook = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default.a, {
-  bg: "dark",
-  variant: "dark",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a, {
-  className: "mr-auto",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
-  href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
-  href: "/SearchBooks",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, "SearchBooks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
-  href: "/Profile",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, "Profile"))));
-
-/* harmony default export */ __webpack_exports__["default"] = (NavBook);
+/* harmony default export */ __webpack_exports__["default"] = (ModelEditBook);
 
 /***/ }),
 
@@ -674,13 +616,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "react-bootstrap/Row");
 /* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__);
-<<<<<<< HEAD
 /* harmony import */ var _addInSearch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../addInSearch */ "./components/addInSearch.js");
 var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\SearchBooksComponents\\BookToBuyList.js";
-=======
-/* harmony import */ var _AddInSearch__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../AddInSearch */ "./components/AddInSearch.js");
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/SearchBooksComponents/BookToBuyList.js";
->>>>>>> 134fe55df97f5093f25a4f48a2259d4b30730567
 
 
 
@@ -787,7 +724,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Row */ "react-bootstrap/Row");
 /* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/SearchBooksComponents/SearchBar.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\SearchBooksComponents\\SearchBar.js";
 
 
 
@@ -879,7 +816,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/SearchBooksComponents/ShoppingCarIcon.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\SearchBooksComponents\\ShoppingCarIcon.js";
 
 
 const shoppingCartbutton = {
@@ -952,7 +889,7 @@ class AddInSearch extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 19
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -961,33 +898,33 @@ class AddInSearch extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 20
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Img, {
       src: '/static/images/' + this.state.img + '.png',
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 22
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Body, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 23
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Title, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29
+        lineNumber: 24
       },
       __self: this
     }, this.state.bookName, this.state.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
       variant: "success",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 26
       },
       __self: this
     }, "Add"))));
@@ -996,6 +933,83 @@ class AddInSearch extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (AddInSearch);
+
+/***/ }),
+
+/***/ "./components/navBook.js":
+/*!*******************************!*\
+  !*** ./components/navBook.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Navbar */ "react-bootstrap/Navbar");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\navBook.js";
+
+
+
+
+
+ // import Link from 'react-bootstrap/Link';
+
+const NavBook = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  bg: "dark",
+  variant: "dark",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a, {
+  className: "mr-auto",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
+  href: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
+  href: "/SearchBooks",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "SearchBooks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
+  href: "/Profile",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "Profile"))));
+
+/* harmony default export */ __webpack_exports__["default"] = (NavBook);
 
 /***/ }),
 
@@ -1040,6 +1054,39 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "core-js/library/fn/object/get-own-property-descriptor");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+
+function _extends() {
+  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
 
 /***/ }),
 
@@ -1685,16 +1732,18 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_NavBook__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/NavBook */ "./components/NavBook.js");
+/* harmony import */ var _components_navBook__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/navBook */ "./components/navBook.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _components_SearchBooksComponents_ShoppingCarIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/SearchBooksComponents/ShoppingCarIcon */ "./components/SearchBooksComponents/ShoppingCarIcon.js");
-/* harmony import */ var _components_AddBooks__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/AddBooks */ "./components/AddBooks.js");
-/* harmony import */ var _components_SearchBooksComponents_SearchBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/SearchBooksComponents/SearchBar */ "./components/SearchBooksComponents/SearchBar.js");
-/* harmony import */ var _components_SearchBooksComponents_BookToBuyList__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/SearchBooksComponents/BookToBuyList */ "./components/SearchBooksComponents/BookToBuyList.js");
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/pages/SearchBooks.js";
+/* harmony import */ var _components_ModelAddBook__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ModelAddBook */ "./components/ModelAddBook.js");
+/* harmony import */ var _components_ModelEditBook__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/ModelEditBook */ "./components/ModelEditBook.js");
+/* harmony import */ var _components_SearchBooksComponents_SearchBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/SearchBooksComponents/SearchBar */ "./components/SearchBooksComponents/SearchBar.js");
+/* harmony import */ var _components_SearchBooksComponents_BookToBuyList__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/SearchBooksComponents/BookToBuyList */ "./components/SearchBooksComponents/BookToBuyList.js");
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\pages\\SearchBooks.js";
+
 
 
 
@@ -1714,55 +1763,49 @@ class SearchBooks extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBook__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddBooks__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 20
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navBook__WEBPACK_IMPORTED_MODULE_1__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 21
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SearchBooksComponents_ShoppingCarIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SearchBooksComponents_ShoppingCarIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SearchBooksComponents_SearchBar__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SearchBooksComponents_SearchBar__WEBPACK_IMPORTED_MODULE_7__["default"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 25
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SearchBooksComponents_BookToBuyList__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 26
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SearchBooksComponents_BookToBuyList__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
       },
       __self: this
     }));
@@ -1792,7 +1835,7 @@ class SearchBooks extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/martheouattara/Desktop/book_app_v3/pages/SearchBooks.js */"./pages/SearchBooks.js");
+module.exports = __webpack_require__(/*! C:\Users\jenny\Desktop\projects\book_app_v3\pages\SearchBooks.js */"./pages/SearchBooks.js");
 
 
 /***/ }),
@@ -1970,6 +2013,17 @@ module.exports = require("react-bootstrap/Container");
 /***/ (function(module, exports) {
 
 module.exports = require("react-bootstrap/Form");
+
+/***/ }),
+
+/***/ "react-bootstrap/Modal":
+/*!****************************************!*\
+  !*** external "react-bootstrap/Modal" ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Modal");
 
 /***/ }),
 

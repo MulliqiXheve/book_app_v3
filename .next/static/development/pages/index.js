@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/HomePage.js":
 /*!********************************!*\
@@ -31,7 +31,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/HomePage.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\HomePage.js";
 
 
 
@@ -154,9 +154,42 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/NavBook.js":
+/***/ "./components/image.js":
+/*!*****************************!*\
+  !*** ./components/image.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\image.js";
+
+
+
+function Image() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "static\\images\\homeImg.jpg",
+    alt: "image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Image);
+
+/***/ }),
+
+/***/ "./components/navBook.js":
 /*!*******************************!*\
-  !*** ./components/NavBook.js ***!
+  !*** ./components/navBook.js ***!
   \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -175,7 +208,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/Nav.js");
 /* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/NavBook.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\components\\navBook.js";
 
 
 
@@ -230,39 +263,6 @@ var NavBook = function NavBook() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBook);
-
-/***/ }),
-
-/***/ "./components/image.js":
-/*!*****************************!*\
-  !*** ./components/image.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/image.js";
-
-
-
-function Image() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/image-placeholder.jpg",
-    alt: "image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  });
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Image);
 
 /***/ }),
 
@@ -6900,10 +6900,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmartheouattara%2FDesktop%2Fbook_app_v3%2Fpages%2Findex.js!./":
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmartheouattara%2FDesktop%2Fbook_app_v3%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjenny%5CDesktop%5Cprojects%5Cbook_app_v3%5Cpages%5Cindex.js!./":
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjenny%5CDesktop%5Cprojects%5Cbook_app_v3%5Cpages%5Cindex.js ***!
+  \***************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8041,12 +8041,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_829b10deddf10e1653a8 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -8626,12 +8626,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_829b10deddf10e1653a8 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -9266,12 +9266,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_829b10deddf10e1653a8 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -11178,12 +11178,12 @@ module.exports = exports["default"];
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_829b10deddf10e1653a8 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -12123,12 +12123,12 @@ var classNamesShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_829b10deddf10e1653a8 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -13972,12 +13972,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_7aff549c98b978433226 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_829b10deddf10e1653a8 ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -14025,14 +14025,14 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_NavBook__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/NavBook */ "./components/NavBook.js");
+/* harmony import */ var _components_navBook__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/navBook */ "./components/navBook.js");
 /* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/image */ "./components/image.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
 /* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_HomePage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/HomePage */ "./components/HomePage.js");
-var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/pages/index.js";
+var _jsxFileName = "C:\\Users\\jenny\\Desktop\\projects\\book_app_v3\\pages\\index.js";
 
 
 
@@ -14047,7 +14047,7 @@ var Index = function Index() {
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBook__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navBook__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -14067,25 +14067,25 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmartheouattara%2FDesktop%2Fbook_app_v3%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjenny%5CDesktop%5Cprojects%5Cbook_app_v3%5Cpages%5Cindex.js ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmartheouattara%2FDesktop%2Fbook_app_v3%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmartheouattara%2FDesktop%2Fbook_app_v3%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjenny%5CDesktop%5Cprojects%5Cbook_app_v3%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cjenny%5CDesktop%5Cprojects%5Cbook_app_v3%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_7aff549c98b978433226":
+/***/ "dll-reference dll_829b10deddf10e1653a8":
 /*!*******************************************!*\
-  !*** external "dll_7aff549c98b978433226" ***!
+  !*** external "dll_829b10deddf10e1653a8" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_7aff549c98b978433226;
+module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
