@@ -9,7 +9,7 @@ import "../static/css/style.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import NavBook from "../components/NavBook";
-import SellBookList from "../components/SellBooksList";
+import SellBookList from "../components/SellBookList.js";
 import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 import SellBook from "../components/SellBook";

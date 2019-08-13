@@ -2,8 +2,8 @@ import NavBook from "../components/navBook";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../static/css/style.css";
 import ShoppingCarIcon from "../components/SearchBooksComponents/ShoppingCarIcon";
-import ModelAddBook  from '../components/ModelAddBook';
-import ModelEditBook from '../components/ModelEditBook';
+import ModalAddBook  from '../components/ModalAddBook';
+import ModalEditBook from '../components/ModalEditBook';
 import SearchBar from "../components/SearchBooksComponents/SearchBar";
 import BookToBuyList from "../components/SearchBooksComponents/BookToBuyList";
 

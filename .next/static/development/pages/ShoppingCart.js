@@ -14228,7 +14228,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!**************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FShoppingCart&absolutePagePath=C%3A%5CUsers%5Cjenny%5CDesktop%5Cprojects%5Cbook_app_v3%5Cpages%5CShoppingCart.js ***!
   \**************************************************************************************************************************************************************/
@@ -14251,5 +14251,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=ShoppingCart.js.map

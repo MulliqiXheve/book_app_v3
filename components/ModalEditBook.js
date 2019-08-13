@@ -10,7 +10,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function ModelEditBook(props) {
   return (
-    <div>
+      <Modal
+      {...props}
+    size="lg"
+    aria-labelledby="contained-modal-title-vcenter"
+    centered>
       <Modal.Dialog>
         <Modal.Header closeButton>
           <Modal.Title>Edit a book</Modal.Title>
@@ -62,7 +66,7 @@ function ModelEditBook(props) {
           <Button variant="primary">Edit</Button>
         </Modal.Footer>
       </Modal.Dialog>
-    </div>
+      </Modal>
   );
 }
 
