@@ -3,17 +3,13 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 function SignIn() {
-  const formStyle = {
-    margin: "40px",
-    border: "5px solid gray",
-    width: "45%"
-  };
+ 
   const buttonstyle = {
     width: "100%"
   };
 
   return (
-    <Form style={formStyle}>
+    <Form >
       <h1>Sign In</h1>
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
