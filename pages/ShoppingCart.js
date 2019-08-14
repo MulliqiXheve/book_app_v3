@@ -9,7 +9,7 @@ class ShoppingCart extends React.Component {
     super(props);
     this.state = {
       img: "javascriptBook",
-      bookName: "JavaScript and JQuary ",
+      bookName: "JavaScript and JQuery ",
       price: "5$"
     };
   }
@@ -30,7 +30,7 @@ class ShoppingCart extends React.Component {
               <th>#</th>
               <th>Image</th>
               <th>Price</th>
-              <th>Quantety</th>
+              <th>Quantity</th>
             </tr>
           </thead>
           <tbody>

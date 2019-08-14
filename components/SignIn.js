@@ -1,19 +1,34 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
+import { Modal } from 'react-bootstrap';
 import Button from "react-bootstrap/Button";
 
-function SignIn() {
-  const formStyle = {
-    margin: "40px",
-    border: "5px solid gray",
-    width: "45%"
-  };
-  const buttonstyle = {
-    width: "100%"
-  };
+function SignIn(props) {
+  // const formStyle = {
+  //   margin: "40px",
+  //   border: "5px solid gray",
+  //   width: "45%"
+  // };
+  // const buttonstyle = {
+  //   width: "100%"
+  // };
 
   return (
-    <Form style={formStyle}>
+
+  <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Please, fill out the sign in form!!
+        </Modal.Title>
+      </Modal.Header>
+
+      <Modal.Body>
+        <Form>
       <h1>Sign In</h1>
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -27,10 +42,17 @@ function SignIn() {
       <Form.Group controlId="formBasicChecbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Button style={buttonstyle} variant="primary" type="submit">
+      <Button variant="primary" type="submit">
         Sign In
       </Button>
     </Form>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+
+
   );
 }
 export default SignIn;

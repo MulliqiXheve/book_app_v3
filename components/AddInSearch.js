@@ -10,7 +10,7 @@ class AddInSearch extends React.Component {
     super(props);
     this.state = {
       img: "javascriptBook",
-      bookName: "JavaScript and JQuary ",
+      bookName: "JavaScript and JQuery ",
       price: "5$"
       
 
@@ -28,7 +28,7 @@ class AddInSearch extends React.Component {
              <Card.Body>
                <Card.Title>{this.state.bookName}{this.state.price}</Card.Title>
                
-               <Button variant="success">Add</Button>
+               <Button variant="success">EDIT</Button>
             
                
              </Card.Body>

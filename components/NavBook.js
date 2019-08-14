@@ -1,11 +1,8 @@
-import Link from 'next/link';
-
+//import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../static/css/style.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-// import Link from 'react-bootstrap/Link';
-
 
 const NavBook = () => (
 

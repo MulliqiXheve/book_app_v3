@@ -2,28 +2,29 @@ import NavBook from "../components/NavBook";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../static/css/style.css";
 import ShoppingCarIcon from "../components/SearchBooksComponents/ShoppingCarIcon";
-import AddBooks  from '../components/AddBooks';
 import SearchBar from "../components/SearchBooksComponents/SearchBar";
 import BookToBuyList from "../components/SearchBooksComponents/BookToBuyList";
+import ConfirmBook from '../components/ConfirmBook';
+import DeleteConfirmation from "../components/DeleteConfirmation";
 
 class SearchBooks extends React.Component {
-  // const shoppingCartbutton = {
-  //   float: "right",
-  //   height: "50px",
-  //   width: "50px"
-  // };
 
   render() {
     return (
       <div>
         <NavBook />
-        <AddBooks />
         <br />
         <ShoppingCarIcon />
         <br />
         <SearchBar />
         <br />
         <BookToBuyList /> 
+        <br />
+        <ConfirmBook />
+        <br />
+        <DeleteConfirmation />
+
+
       </div>
     
       );

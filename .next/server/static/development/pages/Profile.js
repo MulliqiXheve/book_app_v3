@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -118,7 +118,7 @@ class AddInSearch extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
     super(props);
     this.state = {
       img: "javascriptBook",
-      bookName: "JavaScript and JQuary ",
+      bookName: "JavaScript and JQuery ",
       price: "5$"
     };
   }
@@ -165,7 +165,7 @@ class AddInSearch extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
         lineNumber: 31
       },
       __self: this
-    }, "Add"))));
+    }, "EDIT"))));
   }
 
 }
@@ -185,64 +185,62 @@ class AddInSearch extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
-/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Navbar */ "react-bootstrap/Navbar");
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../static/css/style.css */ "./static/css/style.css");
+/* harmony import */ var _static_css_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_css_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Navbar */ "react-bootstrap/Navbar");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/martheouattara/Desktop/book_app_v3/components/NavBook.js";
 
+//import Link from 'next/link';
 
 
 
 
- // import Link from 'react-bootstrap/Link';
 
 const NavBook = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  bg: "dark",
+  variant: "dark",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  className: "mr-auto",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a.Link, {
+  href: "/",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_4___default.a, {
-  bg: "dark",
-  variant: "dark",
+}, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a.Link, {
+  href: "/SearchBooks",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a, {
-  className: "mr-auto",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
-  href: "/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
-  href: "/SearchBooks",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, "SearchBooks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5___default.a.Link, {
+}, "SearchBooks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_4___default.a.Link, {
   href: "/Profile",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 14
   },
   __self: undefined
 }, "Profile"))));
@@ -1046,51 +1044,51 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 38
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavBook__WEBPACK_IMPORTED_MODULE_8__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 39
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_11___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 40
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_7___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 41
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 42
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 43
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a, {
       style: addBookbutton,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 44
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "text-center",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 45
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a.Text, {
@@ -1099,13 +1097,13 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 46
       },
       __self: this
     }, this.state.greeting, this.state.name, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 50
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -1114,79 +1112,73 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       roundedCircle: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 51
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a.Body, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 56
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a.Text, {
       id: "name",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 57
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 58
       },
       __self: this
     }, this.state.name), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_2___default.a.Text, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 60
       },
       __self: this
     }, this.state.email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_3___default.a, {
       variant: "info",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 61
       },
       __self: this
     }, "Edit"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_6___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 68
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 69
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Table__WEBPACK_IMPORTED_MODULE_10___default.a, {
       responsive: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 70
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("thead", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 71
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71
-      },
-      __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 72
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 73
@@ -1198,127 +1190,109 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 74
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SellBook__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 75
       },
       __self: this
-    })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SellBook__WEBPACK_IMPORTED_MODULE_12__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 76
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tbody", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 80
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 81
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 82
       },
       __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84
+        lineNumber: 83
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 85
       },
       __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87
+        lineNumber: 86
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 88
       },
       __self: this
-    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 91
+        lineNumber: 89
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 92
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 93
       },
       __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95
+        lineNumber: 94
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 96
       },
       __self: this
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 98
+        lineNumber: 97
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 99
       },
       __self: this
-    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_AddInSearch__WEBPACK_IMPORTED_MODULE_9__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 102
+        lineNumber: 100
       },
       __self: this
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 103
-      },
-      __self: this
-    }, "place holder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 104
-      },
-      __self: this
-    }, "place holder "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 105
-      },
-      __self: this
-    }, "place holder")))))))));
+    }))))))))));
   }
 
 }
@@ -1338,7 +1312,7 @@ class Profile extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!********************************!*\
   !*** multi ./pages/Profile.js ***!
   \********************************/

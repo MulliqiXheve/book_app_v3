@@ -34,7 +34,7 @@ class ConfirmBook extends React.Component {
 
 <Card style={{ width: '25rem' }}>
               
-              <Card.Img   src={'/static/images/' + this.state.img + '.jpg'} /> 
+              <Card.Img   src={'static/images/' + this.state.img + '.jpg'} /> 
               <Card.Body>
                 <Card.Title>{this.state.bookName}</Card.Title>
 

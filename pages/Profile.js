@@ -14,6 +14,7 @@ import Table from "react-bootstrap/Table";
 import Container from "react-bootstrap/Container";
 import SellBook from "../components/SellBook";
 
+
 class Profile extends React.Component {
   constructor(props) {
     super(props);
@@ -98,11 +99,6 @@ class Profile extends React.Component {
                       <td>
                         <AddInSearch />
                       </td>
-                    </tr>
-                    <tr>
-                      <td>place holder</td>
-                      <td>place holder </td>
-                      <td>place holder</td>
                     </tr>
                   </tbody>
                 </Table>

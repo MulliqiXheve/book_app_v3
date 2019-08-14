@@ -7,7 +7,7 @@ class DeleteConfirmation extends React.Component {
 constructor(props) {
     super(props);
     this.state = {
-      img: "JavaScript&jQuery",
+      img: "JavaScriptBook",
       bookName: "JavaScript and JQuery ", 
       price: "$5",
     }
@@ -32,11 +32,9 @@ constructor(props) {
 
   <div>
 
-
-
 <Card style={{ width: '25rem' }}>
               
-              <Card.Img   src={'/static/images/' + this.state.img + '.jpg'} /> 
+              <Card.Img   src={'/static/images/' + this.state.img + '.png'} /> 
               <Card.Body>
                 <Card.Title>{this.state.bookName}</Card.Title>
 
