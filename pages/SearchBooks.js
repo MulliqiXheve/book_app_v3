@@ -1,14 +1,22 @@
-import NavBook from "../components/NavBook";
+import NavBook from "../components/navBook";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../static/css/style.css";
 import ShoppingCarIcon from "../components/SearchBooksComponents/ShoppingCarIcon";
+import ModalAddBook  from '../components/ModalAddBook';
+import ModalEditBook from '../components/ModalEditBook';
 import SearchBar from "../components/SearchBooksComponents/SearchBar";
 import BookToBuyList from "../components/SearchBooksComponents/BookToBuyList";
 import ConfirmBook from '../components/ConfirmBook';
 import DeleteConfirmation from "../components/DeleteConfirmation";
 
-class SearchBooks extends React.Component {
 
+
+class SearchBooks extends React.Component {
+  // const shoppingCartbutton = {
+  //   float: "right",
+  //   height: "50px",
+  //   width: "50px"
+  // };
   render() {
     return (
       <div>
