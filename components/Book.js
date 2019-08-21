@@ -10,7 +10,7 @@ class Book extends React.Component {
     super(props);
     this.state = {
       img: "javascriptBook",
-      bookName: "JavaScript and JQuary "
+      bookName: "JavaScript and JQuery "
       
 
     }

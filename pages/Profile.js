@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
@@ -29,9 +28,9 @@ class Profile extends React.Component {
 
   render() {
     const addBookbutton = {
-      margin: "35px",
+      margin: "15px",
       border: "5px solid gray",
-      width: "90%"
+      width: "60%"
     };
 
     return (

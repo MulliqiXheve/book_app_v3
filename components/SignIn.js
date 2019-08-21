@@ -4,14 +4,7 @@ import { Modal } from 'react-bootstrap';
 import Button from "react-bootstrap/Button";
 
 function SignIn(props) {
-  // const formStyle = {
-  //   margin: "40px",
-  //   border: "5px solid gray",
-  //   width: "45%"
-  // };
-  // const buttonstyle = {
-  //   width: "100%"
-  // };
+  
 
   return (
 

@@ -6,6 +6,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import Container from '.react-bootstrap/Container';
+// import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+
+
+
 
 
 function ModalAddBook(props) {
@@ -70,9 +76,9 @@ function ModalAddBook(props) {
   </Modal.Footer>
 </Modal.Dialog>
 
-
+  
   </Modal>
-
+  
     
   );
 }

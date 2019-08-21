@@ -8,9 +8,10 @@ import SignUp from "./SignUp";
 
 
 function HomePage () {
-  const [modalShow, setModalShow] = React.useState(false);
+  const [modalShowin, setModalShowin] = React.useState(false);
+  const [modalShowup, setModalShowup] = React.useState(false);
 
-    return (
+    return(
       <>
       <Card className="bg-dark text-white">
         <Card.Img src="../static/images/Books1.jpg" alt="image" />
@@ -24,14 +25,14 @@ function HomePage () {
             </Card.Title>
 
             <Card.Text>
-              <Button variant="secondary" onClick={() => setModalShow(true)}>Sign In</Button>
+              <Button variant="secondary" onClick={() => setModalShowin(true)}>Sign In</Button>
               
               <br />
               <br />
               
               <h4>
                 Not a user?{" "}
-                <Button variant="secondary" onClick={() => setModalShow(true)}>Sign Up</Button>
+                <Button variant="outline-light" onClick={() => setModalShowup(true)}>Sign Up</Button>
             
               </h4>
             </Card.Text>
@@ -39,11 +40,11 @@ function HomePage () {
         </Card.ImgOverlay>
       </Card>
 
-      <SignIn show={modalShow}
-        onHide={() => setModalShow(false)}/>
+      <SignIn show={modalShowin}
+        onHide={() => setModalShowin(false)}/>
 
-<SignUp show={modalShow}
-        onHide={() => setModalShow(false)}/>
+      <SignUp show={modalShowup}
+              onHide={() => setModalShowup(false)}/>
       </>
     );
   }

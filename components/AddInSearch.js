@@ -1,37 +1,50 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-class AddInSearch extends React.Component {
-       
-  constructor(props) {
-    
-    super(props);
-    this.state = {
-      img: "javascriptBook",
-      bookName: "JavaScript and JQuery ",
-      price: "5$"
-      
-    }
-  }
-  render() {
+import BookDetail from './BookDetail'
+import Link from 'next/link';
+import ShopingCart from "../pages/ShoppingCart"
+
+
+function AddInSearch (){
+  const [modalShowin, setModalShowin] = React.useState(false);
+
+    function MouseOver() {
+  document.getElementById("demo").textContent= "Click to se details";
+}
+   
+  
     return(
        
           <div>
               <Card style={{ width: '12rem' }}>
+
+              <Link >
+        <Card.Img id="demo" 
+          src= "static/images/javascriptBook.png"
+          alt=  "image" 
+          onClick={() => setModalShowin(true)}
+          onMouseover="MouseOver()"
+        /> 
+      </Link>
               
-             <Card.Img  src={'/static/images/' + this.state.img + '.png'}  /> 
+             {/* <Card.Img  onClick={() => setModalShowin(true)} src={"static/images/javascriptBook.png"}  />  */}
              <Card.Body>
-               <Card.Title>{this.state.bookName}{this.state.price}</Card.Title>
+               <Card.Title>Java Script 5$</Card.Title>
                
-               <Button variant="success">EDIT</Button>
+               <Button variant="success" onClick="./ShopingCart">ADD</Button>
+             
+               
+             </Card.Body>  
             
-               
-             </Card.Body>
            </Card>
+           <BookDetail show={modalShowin}
+        onHide={() => setModalShowin(false)}/>
+         
           </div>
     );
     }
-}
+
 export default AddInSearch;
 
 
